@@ -77,15 +77,23 @@ nav ul li:hover a::after {
   color: #0088ff;
 } */
 
-.rotating-element {
-  animation: rotate-infinite 2s linear infinite;
+
+.rotating_element {
+  animation-name: rotate-infinite;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: center;
+  animation-play-state: running;
+
+
 };
 
 @keyframes rotate-infinite {
   from {
-    transform: rotate(0deg);
+    color: aqua;
   }
   to {
-    transform: rotate(360deg);
+    color: red
   }
 };
