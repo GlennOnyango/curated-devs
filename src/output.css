@@ -704,7 +704,18 @@ video {
 }
 
 .animate-rotate_quad {
-  animation: rotate 100s linear infinite;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .grid-cols-5 {
@@ -998,8 +1009,22 @@ nav ul li:hover a::after {
 
 /* set color of active/selected link */
 
-nav ul li a.active {
+/* nav ul li a.active {
   color: #0088ff;
+} */
+
+.rotating-element {
+  animation: rotate-infinite 2s linear infinite;
+};
+
+@keyframes rotate-infinite {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width: 640px) {
@@ -1054,4 +1079,4 @@ nav ul li a.active {
     padding-left: 12rem;
     padding-right: 12rem;
   }
-}
+};

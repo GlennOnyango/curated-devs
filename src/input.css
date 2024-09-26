@@ -73,6 +73,19 @@ nav ul li:hover a::after {
 } */
 
 /* set color of active/selected link */
-nav ul li a.active {
+/* nav ul li a.active {
   color: #0088ff;
-}
+} */
+
+.rotating-element {
+  animation: rotate-infinite 2s linear infinite;
+};
+
+@keyframes rotate-infinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+};

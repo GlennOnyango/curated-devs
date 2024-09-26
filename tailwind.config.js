@@ -13,7 +13,8 @@ module.exports = {
         12: "3.5rem",
       },
       animation: {
-        rotate_quad: "rotate 100s linear infinite",
+        //rotate infinatly 
+        rotate_quad: "rotate 2s linear infinite",
       },
     },
   },
