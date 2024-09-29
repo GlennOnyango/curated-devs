@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" type="image/png" href="./assets/images/logo_logo 1.png" />
-  <title>TY Logistics Park FZE</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/Curated Plus Logo White.png" />
+  <title>Curated Plus</title>
   <meta name="description" content="TY Logistics Park FZE." />
 </head>
 
@@ -91,10 +91,11 @@
           </h5>
         </div>
 
-        <div class="col-span-3 z-50 md:col-span-2 bg-gray-500 flex items-center justify-end px-4 md:pr-24 lg:pr-36 xl:pr-48">
+        <div
+          class="col-span-3 z-50 md:col-span-2 bg-gray-500 flex items-center justify-end px-4 md:pr-24 lg:pr-36 xl:pr-48">
           <a href="#talk_to_us" aria-label="talk to us link"
             class="px-4 rounded-full text-white text-2xl font-bold border-2">Talk to Us -></a>
-            
+
         </div>
 
         <div
@@ -115,7 +116,8 @@
                   and life.
                 </p>
                 <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4 z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us -></a>
+                  class="px-4 z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
+                  -></a>
               </div>
 
               <!-- Second row-->
@@ -130,7 +132,8 @@
                   new employees can learn from, work with, and work faster.
                 </p>
                 <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us -></a>
+                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
+                  -></a>
               </div>
               <!-- Third row-->
               <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
@@ -145,7 +148,8 @@
                   deal with severe and more serious cases.
                 </p>
                 <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us -></a>
+                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
+                  -></a>
               </div>
               <!-- Fourth row-->
               <div class="flex flex-col border-2 border-t-0 border-b-0 border-l-0 p-4">
@@ -157,7 +161,8 @@
                   with organizations to solve difficult AI / ML problems.
                 </p>
                 <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us -></a>
+                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
+                  -></a>
               </div>
               <!-- Fifth row-->
             </div>
@@ -208,7 +213,7 @@
             top of the world’s leading LLMs with our AI talent and expertise:
           </p>
 
-          <ul >
+          <ul>
             <li>-> LLM Selection</li>
             <li>-> Model Finetuning</li>
             <li>-> Intelligent Applications & AI Assistants</li>
@@ -451,7 +456,8 @@
         </a>
       </li>
       <li>
-        <a  onclick="scrollToTop()" aria-label="blog link" class="text-white text-2xl cursor-pointer">Back to Top &uarr;</a>
+        <a onclick="scrollToTop()" aria-label="blog link" class="text-white text-2xl cursor-pointer">Back to Top
+          &uarr;</a>
       </li>
     </ul>
   </footer>
@@ -460,7 +466,7 @@
     <script src="js/carousel.js" unsafe-eval></script>
     <script src="js/faq.js"></script> -->
 
-    <script>
+  <script>
     function scrollToTop() {
       window.scrollTo(0, 0);
     }
