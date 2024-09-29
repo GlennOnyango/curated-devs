@@ -578,10 +578,6 @@ video {
   z-index: 50;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -592,6 +588,10 @@ video {
 
 .col-span-5 {
   grid-column: span 5 / span 5;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 
 .col-span-7 {
@@ -666,17 +666,17 @@ video {
   height: inherit;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .max-h-\[200px\] {
@@ -744,12 +744,20 @@ video {
   animation: spin 1s linear infinite;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-7 {
@@ -774,6 +782,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -837,6 +849,16 @@ video {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-talk_to_us {
   --tw-bg-opacity: 1;
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
@@ -849,11 +871,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -995,8 +1012,8 @@ nav ul li a {
 
 .ml_stack_background {
   background-image: url("./assets/Curated\ Plus\ 3.png");
-  background-size: contain cover;
-  background-repeat: no-repeat;
+  background-size: cover auto;
+  background-repeat: repeat-x;
   background-position: bottom;
 }
 
@@ -1093,6 +1110,10 @@ select::before{
     grid-column: span 1 / span 1;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -1103,6 +1124,10 @@ select::before{
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-48 {
+    margin-bottom: 12rem;
   }
 
   .md\:flex {
@@ -1143,12 +1168,20 @@ select::before{
     padding-bottom: 6rem;
   }
 
+  .md\:pr-24 {
+    padding-right: 6rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1171,6 +1204,10 @@ select::before{
     padding-bottom: 2rem;
   }
 
+  .lg\:pr-36 {
+    padding-right: 9rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1180,6 +1217,10 @@ select::before{
 @media (min-width: 1280px) {
   .xl\:px-48 {
     padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .xl\:pr-48 {
     padding-right: 12rem;
   }
 }
