@@ -22,8 +22,8 @@ nav ul li a {
 }
 .ml_stack_background {
   background-image: url("./assets/Curated\ Plus\ 3.png");
-  background-size: contain cover;
-  background-repeat: no-repeat;
+  background-size: cover auto;
+  background-repeat: repeat-x;
   background-position: bottom;
 }
 
