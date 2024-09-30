@@ -14,9 +14,14 @@ module.exports = {
         12: "3.5rem",
       },
       animation: {
-        //rotate infinatly
-        rotate_quad: "rotate 2s linear infinite",
+        "spin-slow": "spin 3s linear infinite",
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      }
     },
   },
   plugins: [],

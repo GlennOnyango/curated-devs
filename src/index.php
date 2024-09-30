@@ -44,10 +44,10 @@
           </nav>
 
           <div class="w-full lg:w-3/5 z-50">
-            <h1 class="text-5xl font-bold text-start mb-5">
+            <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
               Building the Future of Africa
             </h1>
-            <p class="text-[35px] font-normal text-start">
+            <p class="text-2xl md:text-[35px] font-normal text-start">
               Helping African Commercial Enterprises, Organizations and
               Governments do more with less with AI-first solutions.
             </p>
@@ -65,14 +65,14 @@
     <!-- Blue new background -->
     <section class="min-h-[50vh] bg-white text-blue_text grid grid-cols-5 py-14">
       <div class="col-span-5 flex flex-col px-4 md:px-24 lg:px-36 xl:px-48">
-        <h1 class="text-6xl font-bold text-center mb-12">Our AI Studio</h1>
+        <h1 class="text-4xl md:text-6xl font-bold text-start md:text-center mb-12">Our AI Studio</h1>
 
-        <p class="text-[32px] text-start font-normal mb-6">
+        <p class="text-2xl md:text-[32px] text-start font-normal mb-6">
           Curated Plus helps African Commercial Enterprises, Organizations and
           Government Departments do more with less with AI & ML solutions.
         </p>
 
-        <p class="text-[32px] text-start font-normal mb-6">
+        <p class="text-2xl md:text-[32px] text-start font-normal mb-6">
           We solve specific problems with AI & ML. Our work spans both
           self-initiated projects and customer-initiated projects.
         </p>
@@ -85,31 +85,33 @@
       <div class="grid grid-cols-6">
         <!-- Begin solutions-->
 
-        <div class="col-span-3 md:col-span-4 bg-gray-100 py-12 px-4 md:px-24 lg:px-36 xl:px-48">
-          <h5 class="font-normal text-[32px]">
+        <div class="col-span-6 md:col-span-4 bg-gray-100 py-12 px-4 md:px-24 lg:px-36 xl:px-48">
+          <h5 class="font-normal text-2xl md:text-[32px]">
             Do you have a project we can work together to solve ?
           </h5>
         </div>
 
         <div
-          class="col-span-3 z-50 md:col-span-2 bg-gray-500 flex items-center justify-end px-4 md:pr-24 lg:pr-36 xl:pr-48">
-          <a href="#talk_to_us" aria-label="talk to us link"
-            class="px-4 rounded-full text-white text-2xl font-bold border-2">Talk to Us -></a>
+          class="col-span-6 z-50 py-16 md:col-span-2 bg-gray-500 flex items-center justify-center md:justify-end px-4 md:pr-24 lg:pr-36 xl:pr-48">
+          <a href="#talk_to_us" 
+          aria-label="talk to us link"
+          class="px-4 rounded-full text-white text-2xl font-bold border-2">
+          Talk to Us -></a>
 
         </div>
 
         <div
-          class="flex flex-col text-white col-span-6 justify-center py-4 px-4 md:px-24 lg:px-36 xl:px-48 bg-blue_text">
-          <h1 class="text-[64px] font-bold text-start mb-12">
+          class="flex flex-col text-white col-span-6 justify-center py-14 px-4 md:px-24 lg:px-36 xl:px-48 bg-blue_text">
+          <h1 class="text-4xl md:text-[64px] font-bold text-start mb-12">
             Our Solutions
           </h1>
-          <div class="grid grid-cols-7 grid-row-4 border-2">
-            <div class="col-span-7 md:col-span-4 flex flex-col">
-              <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
-                <h1 class="text-[32px] font-bold text-start mb-4">
+          <div class="col-span-7 md:col-span-4 flex flex-col border-2">
+            <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
+              <div class="flex flex-col order-2 md:order-1">
+                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
                   -> Education
                 </h1>
-                <p class="text-2xl text-start font-normal mb-6">
+                <p class="text-2xl text-start font-normal mb-12 leading-loose">
                   African kids are disadvantaged when it comes to making
                   well-informed career decisions. We are helping pre-college/
                   university students figure out what they should do in campus
@@ -119,13 +121,20 @@
                   class="px-4 z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
                   -></a>
               </div>
+              <img src="./assets/Curated Plus 6.png" alt="Education"
+               class="max-h-[300px] animate-spin-slow order-1 md:order-2"
+                loading="lazy" />
 
-              <!-- Second row-->
-              <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
-                <h1 class="text-[32px] font-bold text-start mb-4">
+            </div>
+
+            <!-- Second row-->
+            <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
+              <div class="flex flex-col order-2 md:order-1">
+
+                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
                   -> Knowledge Retention & Onboarding
                 </h1>
-                <p class="text-2xl text-start font-normal mb-6">
+                <p class="text-2xl text-start font-normal mb-12 leading-loose">
                   Organizations struggle to retain specific knowledge when key
                   employees leave. We work with them to build & train AI
                   digital assistants trained on organizational knowledge that
@@ -135,12 +144,21 @@
                   class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
                   -></a>
               </div>
-              <!-- Third row-->
-              <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
-                <h1 class="text-[32px] font-bold text-start mb-4">
+
+
+              <img src="./assets/Curated Plus 6.png" alt="Education"
+               class="max-h-[300px] animate-spin-slow order-1 md:order-2"
+                loading="lazy" />
+
+            </div>
+            <!-- Third row-->
+            <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
+              <div class="flex flex-col order-2 md:order-1">
+
+                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
                   -> Healthcare
                 </h1>
-                <p class="text-2xl text-start font-normal mb-6">
+                <p class="text-2xl text-start font-normal mb-12 leading-loose">
                   Africa’s doctor to patient ratios are extremely deficient.
                   We help doctors, governments and private healthcare
                   providers with AI powered intelligent applications that
@@ -150,40 +168,37 @@
                 <a href="#talk_to_us" aria-label="talk to us link"
                   class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
                   -></a>
+
               </div>
-              <!-- Fourth row-->
-              <div class="flex flex-col border-2 border-t-0 border-b-0 border-l-0 p-4">
-                <h1 class="text-[32px] font-bold text-start mb-4">
+
+              <img src="./assets/Curated Plus 6.png" alt="Education" 
+              class="max-h-[300px] animate-spin-slow order-1 md:order-2"
+                loading="lazy" />
+            </div>
+            <!-- Fourth row-->
+            <div class="flex flex-col md:flex-row border-2 border-t-0 border-b-0 border-l-0 p-8">
+              <div class="flex flex-col order-2 md:order-1">
+
+                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
                   -> Customized Solutions
                 </h1>
-                <p class="text-2xl text-start font-normal mb-6">
+                <p class="text-2xl text-start font-normal mb-12 leading-loose">
                   Do you have a custom solution we can build for you? We work
                   with organizations to solve difficult AI / ML problems.
                 </p>
                 <a href="#talk_to_us" aria-label="talk to us link"
                   class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
                   -></a>
+
               </div>
-              <!-- Fifth row-->
+
+              <img src="./assets/Curated Plus 6.png" alt="Education" 
+              class="max-h-[300px] animate-spin-slow order-1 md:order-2"
+                loading="lazy" />
             </div>
-
-            <div class="hidden md:col-span-3 md:grid grid-rows-4">
-              <div class="row-span-1 flex justify-center items-center">
-                <img src="./assets/Curated Plus 6.png" alt="Education" class="max-h-[200px] animate-spin"
-                  loading="lazy" />
-              </div>
-
-              <div class="row-span-2 flex justify-center items-center">
-                <img src="./assets/Curated Plus 6.png" alt="Education" class="max-h-[400px] animate-spin"
-                  loading="lazy" />
-              </div>
-
-              <div class="row-span-1 flex justify-center items-center">
-                <img src="./assets/Curated Plus 6.png" alt="Education" class="max-h-[200px] animate-spin"
-                  loading="lazy" />
-              </div>
-            </div>
+            <!-- Fifth row-->
           </div>
+
         </div>
 
         <!-- End solutions-->
@@ -194,8 +209,8 @@
 
     <!--ML & AI Stack-->
     <section
-      class="min-h-[80vh] text-blue_text ml_stack_background grid grid-cols-4 py-12 px-4 md:px-24 lg:px-36 xl:px-48">
-      <div class="col-span-4 flex justify-center md:justify-start mb-10">
+      class="min-h-[80vh] text-blue_text ml_stack_background grid grid-cols-4 py-14 px-4 md:px-24 lg:px-36 xl:px-48">
+      <div class="col-span-4 flex justify-start mb-10">
         <button class="bg-blue_text text-white text-[32px] font-bold rounded-full px-4 py-2">
           ML & AI Stack
         </button>
@@ -205,15 +220,15 @@
         <div class="col-span-4 md:col-span-1 flex items-center justify-center h-full">
           <img src="./assets/Curated Plus 10.png" alt="Education" class="max-h-[300px]" loading="lazy" />
         </div>
-        <div class="col-span-4 md:col-span-3 font-bold text-2xl text-blue_text h-full flex flex-col justify-center">
-          <p class="mb-10 text-start">
+        <div class="col-span-4 md:col-span-3 font-bold text-2xl text-blue_text h-full flex flex-col justify-center mb-14">
+          <p class="mb-10 text-start leading-loose">
             We leverage the power of AI to address critical challenges tha
             were previously difficult to solve. We are helping solve critical
             pain points with intelligent solutions and assistants. Build on
             top of the world’s leading LLMs with our AI talent and expertise:
           </p>
 
-          <ul>
+          <ul class="space-y-2">
             <li>-> LLM Selection</li>
             <li>-> Model Finetuning</li>
             <li>-> Intelligent Applications & AI Assistants</li>
@@ -223,18 +238,19 @@
             </li>
             <li>
               -> Digital Twins & Simulations</li>
-            <li>-> LLM Selection -> Custom AI / ML Solutions</li>
+            <li>-> LLM Selection</li>
+            <li>-> Custom AI / ML Solutions</li>
           </ul>
         </div>
       </div>
 
       <div class="col-span-4 grid grid-cols-7 border-2 mb-24">
         <div class="col-span-7 md:col-span-4 flex flex-col">
-          <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
-            <h1 class="text-[46px] font-bold text-start mb-4">
+          <div class="flex flex-col border-2 border-t-0 border-l-0 p-8 pr-12">
+            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
               -> LLM Selection
             </h1>
-            <p class="text-2xl text-start font-bold mb-6">
+            <p class="text-2xl text-start font-bold mb-6 leading-loose">
               Identifying the right LLM for your organization to build on,
               taking into consideration the existing data and enterprise
               software solutions and the desired AI and ML solutions.
@@ -242,21 +258,21 @@
           </div>
 
           <!-- Second row-->
-          <div class="flex flex-col border-2 border-t-0 border-l-0 p-4">
-            <h1 class="text-[46px] font-bold text-start mb-4">
+          <div class="flex flex-col border-2 border-t-0 border-l-0 p-8 pr-12">
+            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
               -> Model Finetuning
             </h1>
-            <p class="text-2xl text-start font-bold mb-6">
+            <p class="text-2xl text-start font-bold mb-6 leading-loose">
               Building enterprise/ organizational data on LLMs. finetuning and
               building specific use case AI agents and fine-tuned models.
             </p>
           </div>
           <!-- Third row-->
-          <div class="flex flex-col border-2 border-t-0 border-b-0 border-l-0 p-4">
-            <h1 class="text-[46px] font-bold text-start mb-4">
+          <div class="flex flex-col border-2 border-t-0 border-b-0 border-l-0 p-8 pr-12">
+            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
               -> Intelligent Applications & AI Assistants
             </h1>
-            <p class="text-2xl text-start font-bold mb-6">
+            <p class="text-2xl text-start font-bold mb-6 leading-loose">
               Building intelligent ML & AI first business solutions,
               applications and interfaces to take your business, organization
               and government to the next level.
@@ -271,7 +287,7 @@
       </div>
 
       <div class="col-span-4">
-        <h2 class="text-[44px] font-bold text-start mb-32 md:mb-48">
+        <h2 class="text-4xl md:text-[44px] font-bold text-start mb-32 md:mb-48">
           LLMs & Platforms we build on:
         </h2>
         <img src="./assets/Curated Plus llms & platforms.png" alt="Education" class="w-full" loading="lazy" />
@@ -283,10 +299,10 @@
       <div
         class="text-white flex flex-col md:flex-row justify-between items-center py-12 md:py-24 px-4 md:px-24 lg:px-36 xl:px-48 bg-blue_text">
         <div class="w-full md:w-3/4 mb-4 md:mb-0 z-50">
-          <h1 class="text-5xl font-bold text-start mb-5">
-            World Class Capabilities, in Nairobi.
+          <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
+            World Class Capabilities,<br> in Nairobi.
           </h1>
-          <p class="text-2xl font-normal text-start">
+          <p class="text-2xl font-normal text-start leading-loose">
             We have world class talent and capabilities, right here in the
             heart of Nairobi. Our AI studio team is helping businesses and
             institutions across Africa and beyond to harness the
@@ -304,11 +320,11 @@
     </section>
 
     <!--Contact Us-->
-    <section class="min-h-[80vh] text-blue_text bg-talk_to_us flex flex-col py-12 px-4 md:px-24 lg:px-36 xl:px-48">
-      <h1 class="text-[64px] font-bold ">
+    <section class="min-h-[80vh] text-blue_text bg-talk_to_us flex flex-col py-14 px-4 md:px-24 lg:px-36 xl:px-48">
+      <h1 class="text-4xl md:text-[64px] mb-12 font-bold ">
         Talk to Us:
       </h1>
-      <p class="text-[37px] font-bold">
+      <p class="text-2xl md:text-[37px] font-bold">
         We design solutions for all industries; commercial, government and non-government. Harness your organization
         super power and takeoff to the next level.
       </p>
@@ -426,7 +442,7 @@
 
       </div>
 
-      <div class="mt-8">
+      <div class="mt-16">
         <div class="flex flex-row gap-4">
           <div class="w-fit h-fit">
             <svg width="24" height="24" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -445,7 +461,7 @@
     </section>
   </main>
 
-  <footer class="bg-blue_text text-white px-4 md:px-24 lg:px-36 xl:px-48">
+  <footer class="bg-blue_text text-white py-14 px-4 md:px-24 lg:px-36 xl:px-48">
     <ul class="flex flex-col md:flex-row justify-between items-center">
       <li>
         <a href="./" aria-label="home link" class="text-2xl">© Curated Plus 2024</a>
