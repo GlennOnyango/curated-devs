@@ -93,10 +93,9 @@
 
         <div
           class="col-span-6 z-50 py-16 md:col-span-2 bg-gray-500 flex items-center justify-center md:justify-end px-4 md:pr-24 lg:pr-36 xl:pr-48">
-          <a href="#talk_to_us" 
-          aria-label="talk to us link"
-          class="px-4 rounded-full text-white text-2xl font-bold border-2">
-          Talk to Us -></a>
+          <a href="#talk_to_us" aria-label="talk to us link"
+            class="px-4 rounded-full text-white text-2xl font-bold border-2">
+            Talk to Us -></a>
 
         </div>
 
@@ -122,8 +121,7 @@
                   -></a>
               </div>
               <img src="./assets/Curated Plus 6.png" alt="Education"
-               class="max-h-[300px] animate-spin-slow order-1 md:order-2"
-                loading="lazy" />
+                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
 
             </div>
 
@@ -147,8 +145,7 @@
 
 
               <img src="./assets/Curated Plus 6.png" alt="Education"
-               class="max-h-[300px] animate-spin-slow order-1 md:order-2"
-                loading="lazy" />
+                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
 
             </div>
             <!-- Third row-->
@@ -171,9 +168,8 @@
 
               </div>
 
-              <img src="./assets/Curated Plus 6.png" alt="Education" 
-              class="max-h-[300px] animate-spin-slow order-1 md:order-2"
-                loading="lazy" />
+              <img src="./assets/Curated Plus 6.png" alt="Education"
+                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fourth row-->
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-b-0 border-l-0 p-8">
@@ -192,9 +188,8 @@
 
               </div>
 
-              <img src="./assets/Curated Plus 6.png" alt="Education" 
-              class="max-h-[300px] animate-spin-slow order-1 md:order-2"
-                loading="lazy" />
+              <img src="./assets/Curated Plus 6.png" alt="Education"
+                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fifth row-->
           </div>
@@ -220,7 +215,8 @@
         <div class="col-span-4 md:col-span-1 flex items-center justify-center h-full">
           <img src="./assets/Curated Plus 10.png" alt="Education" class="max-h-[300px]" loading="lazy" />
         </div>
-        <div class="col-span-4 md:col-span-3 font-bold text-2xl text-blue_text h-full flex flex-col justify-center mb-14">
+        <div
+          class="col-span-4 md:col-span-3 font-bold text-2xl text-blue_text h-full flex flex-col justify-center mb-14">
           <p class="mb-10 text-start leading-loose">
             We leverage the power of AI to address critical challenges tha
             were previously difficult to solve. We are helping solve critical
@@ -442,20 +438,19 @@
 
       </div>
 
-      <div class="mt-16">
-        <div class="flex flex-row gap-4">
-          <div class="w-fit h-fit">
-            <svg width="24" height="24" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M23 23C19.8375 23 17.1302 21.874 14.8781 19.6219C12.626 17.3698 11.5 14.6625 11.5 11.5C11.5 8.3375 12.626 5.63021 14.8781 3.37813C17.1302 1.12604 19.8375 0 23 0C26.1625 0 28.8698 1.12604 31.1219 3.37813C33.374 5.63021 34.5 8.3375 34.5 11.5C34.5 14.6625 33.374 17.3698 31.1219 19.6219C28.8698 21.874 26.1625 23 23 23ZM0 46V37.95C0 36.3208 0.419751 34.8239 1.25925 33.4592C2.09875 32.0946 3.21233 31.0519 4.6 30.3313C7.57083 28.8458 10.5896 27.7322 13.6562 26.9905C16.7229 26.2487 19.8375 25.8769 23 25.875C26.1625 25.8731 29.2771 26.2449 32.3437 26.9905C35.4104 27.7361 38.4292 28.8497 41.4 30.3313C42.7896 31.05 43.9041 32.0927 44.7436 33.4592C45.5831 34.8258 46.0019 36.3228 46 37.95V46H0Z"
-                fill="#1F2C8F" />
-            </svg>
+      <div class="flex flex-row mt-16 gap-4 overflow-x-auto">
+        <div class="w-fit h-fit">
+          <svg width="24" height="24" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M23 23C19.8375 23 17.1302 21.874 14.8781 19.6219C12.626 17.3698 11.5 14.6625 11.5 11.5C11.5 8.3375 12.626 5.63021 14.8781 3.37813C17.1302 1.12604 19.8375 0 23 0C26.1625 0 28.8698 1.12604 31.1219 3.37813C33.374 5.63021 34.5 8.3375 34.5 11.5C34.5 14.6625 33.374 17.3698 31.1219 19.6219C28.8698 21.874 26.1625 23 23 23ZM0 46V37.95C0 36.3208 0.419751 34.8239 1.25925 33.4592C2.09875 32.0946 3.21233 31.0519 4.6 30.3313C7.57083 28.8458 10.5896 27.7322 13.6562 26.9905C16.7229 26.2487 19.8375 25.8769 23 25.875C26.1625 25.8731 29.2771 26.2449 32.3437 26.9905C35.4104 27.7361 38.4292 28.8497 41.4 30.3313C42.7896 31.05 43.9041 32.0927 44.7436 33.4592C45.5831 34.8258 46.0019 36.3228 46 37.95V46H0Z"
+              fill="#1F2C8F" />
+          </svg>
 
-          </div>
-          <p class="text-2xl font-normal">
-            Careers & Internships: hello@curatedp.com (subject on drop down - Careers)
-          </p>
         </div>
+
+        <p class="font-normal text-wrap text-2xl">
+          Careers & Internships: hello@curatedp.com (subject on drop down - Careers)
+        </p>
       </div>
 
     </section>
