@@ -679,8 +679,24 @@ video {
   height: 100%;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .max-h-\[300px\] {
@@ -714,10 +730,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.grow {
-  flex-grow: 1;
 }
 
 @keyframes pulse {
@@ -796,6 +808,14 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .rounded-full {
@@ -1198,6 +1218,10 @@ select::before{
 
   .md\:text-\[64px\] {
     font-size: 64px;
+  }
+
+  .md\:font-bold {
+    font-weight: 700;
   }
 }
 
