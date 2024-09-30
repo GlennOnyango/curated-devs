@@ -14,16 +14,15 @@
 </head>
 
 <body>
-  <section id="top" class="h-screen flex flex-col">
-    <div class="grow" id="img_section">
-      <div class="h-full w-full bg-gray-200 relative">
+  <section class="h-screen flex flex-col">
+      <div class="h-[inherit] w-full bg-gray-200 relative">
         <div
           class="px-4 md:px-24 lg:px-36 xl:px-48 pb-8 lg:py-8 text-white flex flex-col justify-between items-start h-[inherit] hero_overlay">
           <nav class="w-full z-50 lg:flex">
             <ul class="flex justify-between items-center w-full">
               <li>
                 <a href="./" aria-label="home link">
-                  <img src="./assets/Curated Plus Logo White.png" alt="TY Logistics Park FZE" class="h-12 lg:h-28" />
+                  <img src="./assets/Curated Plus Logo White.png" alt="TY Logistics Park FZE" class="h-10 lg:h-28" />
                 </a>
               </li>
 
@@ -36,7 +35,7 @@
 
                   <li class="flex justify-center p-4">
                     <a href="#talk_to_us" aria-label="blog link"
-                      class="px-4 animate-pulse rounded-full text-lg lg:text-2xl font-bold border-2">Talk to Us -></a>
+                      class="px-4 animate-pulse rounded-full text-lg lg:text-2xl font-normal md:font-bold border-2">Talk to Us -></a>
                   </li>
                 </ul>
               </li>
@@ -47,7 +46,7 @@
             <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
               Building the Future of Africa
             </h1>
-            <p class="text-2xl md:text-[35px] font-normal text-start">
+            <p class="text-2xl md:text-[35px] font-normal text-start mb-12 md:mb-0">
               Helping African Commercial Enterprises, Organizations and
               Governments do more with less with AI-first solutions.
             </p>
@@ -58,7 +57,6 @@
         <img src="./assets/Curated Plus 5.png" class="h-full w-full object-cover absolute top-0 opacity-70" alt="World class Free Zone Contract Logistics in Nigeria & West
             Africa" />
       </div>
-    </div>
   </section>
 
   <main class="main-body">
