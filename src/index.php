@@ -8,55 +8,56 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" type="image/png" href="./assets/Curated Plus Logo White.png" />
+  <link rel="shortcut icon" type="image/png" href="./assets/Curated Plus Logo Icon Blue.png" />
   <title>Curated Plus</title>
   <meta name="description" content="TY Logistics Park FZE." />
 </head>
 
 <body>
   <section class="h-screen flex flex-col">
-      <div class="h-[inherit] w-full bg-gray-200 relative">
-        <div
-          class="px-4 md:px-24 lg:px-36 xl:px-48 pb-8 lg:py-8 text-white flex flex-col justify-between items-start h-[inherit] hero_overlay">
-          <nav class="w-full z-50 lg:flex">
-            <ul class="flex justify-between items-center w-full">
-              <li>
-                <a href="./" aria-label="home link">
-                  <img src="./assets/Curated Plus Logo White.png" alt="TY Logistics Park FZE" class="h-10 lg:h-28" />
-                </a>
-              </li>
+    <div class="h-[inherit] w-full bg-gray-200 relative">
+      <div
+        class="px-4 md:px-24 lg:px-36 xl:px-48 py-14 text-white flex flex-col justify-between items-start h-[inherit] hero_overlay">
+        <nav class="w-full z-50 lg:flex">
+          <ul class="flex justify-between items-center w-full">
+            <li>
+              <a href="./" aria-label="home link">
+                <img src="./assets/Curated Plus Logo White.png" alt="TY Logistics Park FZE" class="h-10 lg:h-28" />
+              </a>
+            </li>
 
-              <li>
-                <ul class="flex flex-row">
-                  <li class="hidden lg:flex justify-center p-4">
-                    <a href="./blog/" aria-label="blog link"
-                      class="px-4 bg-transparent rounded-full text-2xl font-normal border-none">Blog +</a>
-                  </li>
+            <li>
+              <ul class="flex flex-row">
+                <li class="hidden lg:flex justify-center p-4">
+                  <a href="./blog/" aria-label="blog link"
+                    class="px-4 bg-transparent rounded-full text-2xl font-normal border-none">Blog +</a>
+                </li>
 
-                  <li class="flex justify-center p-4">
-                    <a href="#talk_to_us" aria-label="blog link"
-                      class="px-4 animate-pulse rounded-full text-lg lg:text-2xl font-normal md:font-bold border-2">Talk to Us -></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+                <li class="flex justify-center p-4">
+                  <a href="#talk_to_us" aria-label="blog link"
+                    class="px-4 animate-pulse rounded-full text-lg lg:text-2xl font-normal md:font-bold border-2">Talk
+                    to Us -></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
 
-          <div class="w-full lg:w-3/5 z-50">
-            <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
-              Building the Future of Africa
-            </h1>
-            <p class="text-2xl md:text-[35px] font-normal text-start mb-12 md:mb-0">
-              Helping African Commercial Enterprises, Organizations and
-              Governments do more with less with AI-first solutions.
-            </p>
-          </div>
+        <div class="w-full lg:w-3/5 z-50">
+          <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
+            Building the Future of Africa
+          </h1>
+          <p class="text-2xl md:text-[35px] font-normal leading-relaxed text-start mb-12 md:mb-0">
+            Helping African Commercial Enterprises, Organizations and
+            Governments do more with less with AI-first solutions.
+          </p>
         </div>
-        <img src="./assets/Curated Plus Nairobi.jpg" class="h-full w-full object-cover absolute top-0 opacity-70" alt="World class Free Zone Contract Logistics in Nigeria & West
-            Africa" />
-        <img src="./assets/Curated Plus 5.png" class="h-full w-full object-cover absolute top-0 opacity-70" alt="World class Free Zone Contract Logistics in Nigeria & West
-            Africa" />
       </div>
+      <img src="./assets/Curated Plus Nairobi.jpg" class="h-full w-full object-cover absolute top-0 opacity-70" alt="World class Free Zone Contract Logistics in Nigeria & West
+            Africa" />
+      <img src="./assets/Curated Plus 5.png" class="h-full w-full object-cover absolute top-0 opacity-70" alt="World class Free Zone Contract Logistics in Nigeria & West
+            Africa" />
+    </div>
   </section>
 
   <main class="main-body">
@@ -65,12 +66,12 @@
       <div class="col-span-5 flex flex-col px-4 md:px-24 lg:px-36 xl:px-48">
         <h1 class="text-4xl md:text-6xl font-bold text-start md:text-center mb-12">Our AI Studio</h1>
 
-        <p class="text-2xl md:text-[32px] text-start font-normal mb-6">
+        <p class="text-2xl md:text-[32px] text-start font-normal leading-relaxed mb-6">
           Curated Plus helps African Commercial Enterprises, Organizations and
           Government Departments do more with less with AI & ML solutions.
         </p>
 
-        <p class="text-2xl md:text-[32px] text-start font-normal mb-6">
+        <p class="text-2xl md:text-[32px] text-start font-normal leading-relaxed mb-6">
           We solve specific problems with AI & ML. Our work spans both
           self-initiated projects and customer-initiated projects.
         </p>
@@ -105,21 +106,34 @@
           <div class="col-span-7 md:col-span-4 flex flex-col border-2">
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
               <div class="flex flex-col order-2 md:order-1">
-                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
-                  -> Education
-                </h1>
-                <p class="text-2xl text-start font-normal mb-12 leading-loose">
-                  African kids are disadvantaged when it comes to making
-                  well-informed career decisions. We are helping pre-college/
-                  university students figure out what they should do in campus
-                  and life.
-                </p>
-                <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4 z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
-                  -></a>
+
+                <div class="grid grid-cols-12">
+                  <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+                  <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                    Education
+                  </h1>
+
+                  <p
+                    class="col-span-10 md:col-span-11 col-start-3 md:col-start-2  text-2xl text-start font-normal mb-6 leading-relaxed">
+                    African kids are disadvantaged when it comes to making
+                    well-informed career decisions. We are helping pre-college/
+                    university students figure out what they should do in campus
+                    and life.
+                  </p>
+
+
+                  <a href="#talk_to_us" aria-label="talk to us link"
+                    class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl col-start-3 md:col-start-2 col-span-10 md:col-span-11 font-bold border-2">Talk
+                    to Us
+                    -></a>
+
+
+                </div>
+
               </div>
-              <img src="./assets/Curated Plus 6.png" alt="Education"
-                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
+              <img src="./assets/Curated Plus Education.png" alt="Education"
+                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
 
             </div>
 
@@ -127,67 +141,102 @@
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
               <div class="flex flex-col order-2 md:order-1">
 
-                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
-                  -> Knowledge Retention & Onboarding
-                </h1>
-                <p class="text-2xl text-start font-normal mb-12 leading-loose">
-                  Organizations struggle to retain specific knowledge when key
-                  employees leave. We work with them to build & train AI
-                  digital assistants trained on organizational knowledge that
-                  new employees can learn from, work with, and work faster.
-                </p>
-                <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
-                  -></a>
+
+                <div class="grid grid-cols-12">
+                  <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+                  <h1 class="text-3xl md:text-[46px] font-bold text-start  col-span-2 md:col-span-11 leading-snug">
+                    Knowledge Retention & Onboarding
+                  </h1>
+
+                  <p
+                    class="col-span-10 md:col-span-11 col-start-3 md:col-start-2  text-2xl text-start font-normal mb-6 leading-relaxed">
+                    Organizations struggle to retain specific knowledge when key
+                    employees leave. We work with them to build & train AI
+                    digital assistants trained on organizational knowledge that
+                    new employees can learn from, work with, and work faster.
+                  </p>
+
+
+                  <a href="#talk_to_us" aria-label="talk to us link"
+                    class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl col-start-3 md:col-start-2 col-span-10 md:col-span-11 font-bold border-2">Talk
+                    to Us
+                    -></a>
+
+
+                </div>
               </div>
 
 
-              <img src="./assets/Curated Plus 6.png" alt="Education"
-                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
+              <img src="./assets/Curated Plus Knowledge.png" alt="Education"
+                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
 
             </div>
             <!-- Third row-->
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-l-0 p-8">
               <div class="flex flex-col order-2 md:order-1">
 
-                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
-                  -> Healthcare
-                </h1>
-                <p class="text-2xl text-start font-normal mb-12 leading-loose">
-                  Africa’s doctor to patient ratios are extremely deficient.
-                  We help doctors, governments and private healthcare
-                  providers with AI powered intelligent applications that
-                  resolve minor ailments prescriptions freeing up doctors to
-                  deal with severe and more serious cases.
-                </p>
-                <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
-                  -></a>
+                <div class="grid grid-cols-12">
+                  <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+                  <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                    Healthcare
+                  </h1>
+
+                  <p
+                    class="col-span-10 md:col-span-11 col-start-3 md:col-start-2 text-2xl text-start font-normal mb-6 leading-relaxed">
+                    Africa’s doctor to patient ratios are extremely deficient.
+                    We help doctors, governments and private healthcare
+                    providers with AI powered intelligent applications that
+                    resolve minor ailments prescriptions freeing up doctors to
+                    deal with severe and more serious cases.
+                  </p>
+
+
+                  <a href="#talk_to_us" aria-label="talk to us link"
+                    class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl col-start-3 md:col-start-2 col-span-10 md:col-span-11 font-bold border-2">Talk
+                    to Us
+                    -></a>
+
+
+                </div>
+
 
               </div>
 
-              <img src="./assets/Curated Plus 6.png" alt="Education"
-                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
+              <img src="./assets/Curated Plus Health.png" alt="Education"
+                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fourth row-->
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-b-0 border-l-0 p-8">
               <div class="flex flex-col order-2 md:order-1">
+                <div class="grid grid-cols-12">
+                  <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
 
-                <h1 class="text-3xl md:text-[32px] font-bold text-start mb-4">
-                  -> Customized Solutions
-                </h1>
-                <p class="text-2xl text-start font-normal mb-12 leading-loose">
-                  Do you have a custom solution we can build for you? We work
-                  with organizations to solve difficult AI / ML problems.
-                </p>
-                <a href="#talk_to_us" aria-label="talk to us link"
-                  class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl font-bold border-2">Talk to Us
-                  -></a>
+                  <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                    Customized Solutions
+                  </h1>
+
+                  <p
+                    class="col-span-10 md:col-span-11 col-start-3 md:col-start-2 text-2xl text-start font-normal mb-6 leading-relaxed">
+                    Do you have a custom solution we can build for you? We work
+                    with organizations to solve difficult AI / ML problems.
+                  </p>
+
+
+                  <a href="#talk_to_us" aria-label="talk to us link"
+                    class="px-4  z-50 rounded-full w-fit text-white text-lg lg:text-2xl col-start-3 md:col-start-2 col-span-10 md:col-span-11 font-bold border-2">Talk
+                    to Us
+                    -></a>
+
+
+                </div>
+
 
               </div>
 
-              <img src="./assets/Curated Plus 6.png" alt="Education"
-                class="max-h-[300px] animate-spin-slow order-1 md:order-2" loading="lazy" />
+              <img src="./assets/Curated Plus Custom Solutions.png" alt="Education"
+                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fifth row-->
           </div>
@@ -214,15 +263,15 @@
           <img src="./assets/Curated Plus 10.png" alt="Education" class="max-h-[300px]" loading="lazy" />
         </div>
         <div
-          class="col-span-4 md:col-span-3 font-bold text-2xl text-blue_text h-full flex flex-col justify-center mb-14">
-          <p class="mb-10 text-start leading-loose">
+          class="col-span-4 md:col-span-3 font-normal text-2xl text-blue_text h-full flex flex-col justify-center mb-14">
+          <p class="mb-10 text-start leading-relaxed">
             We leverage the power of AI to address critical challenges tha
             were previously difficult to solve. We are helping solve critical
             pain points with intelligent solutions and assistants. Build on
             top of the world’s leading LLMs with our AI talent and expertise:
           </p>
 
-          <ul class="space-y-2">
+          <ul class="space-y-2 font-normal">
             <li>-> LLM Selection</li>
             <li>-> Model Finetuning</li>
             <li>-> Intelligent Applications & AI Assistants</li>
@@ -241,36 +290,59 @@
       <div class="col-span-4 grid grid-cols-7 border-2 mb-24">
         <div class="col-span-7 md:col-span-4 flex flex-col">
           <div class="flex flex-col border-2 border-t-0 border-l-0 p-8 pr-12">
-            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
-              -> LLM Selection
-            </h1>
-            <p class="text-2xl text-start font-bold mb-6 leading-loose">
-              Identifying the right LLM for your organization to build on,
-              taking into consideration the existing data and enterprise
-              software solutions and the desired AI and ML solutions.
-            </p>
+            <div class="grid grid-cols-12">
+              <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+              <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                LLM Selection
+              </h1>
+
+              <p
+                class="col-span-10 md:col-span-11 col-start-3 md:col-start-2  text-2xl text-start font-normal mb-6 leading-relaxed">
+                Identifying the right LLM for your organization to build on,
+                taking into consideration the existing data and enterprise
+                software solutions and the desired AI and ML solutions.
+              </p>
+
+            </div>
+
           </div>
 
           <!-- Second row-->
           <div class="flex flex-col border-2 border-t-0 border-l-0 p-8 pr-12">
-            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
-              -> Model Finetuning
-            </h1>
-            <p class="text-2xl text-start font-bold mb-6 leading-loose">
-              Building enterprise/ organizational data on LLMs. finetuning and
-              building specific use case AI agents and fine-tuned models.
-            </p>
+
+            <div class="grid grid-cols-12">
+              <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+              <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                Model Finetuning
+              </h1>
+              <p
+                class="col-span-10 md:col-span-11 col-start-3 md:col-start-2  text-2xl text-start font-normal mb-6 leading-relaxed">
+                Building enterprise/ organizational data on LLMs. finetuning and
+                building specific use case AI agents and fine-tuned models.
+              </p>
+
+            </div>
           </div>
           <!-- Third row-->
           <div class="flex flex-col border-2 border-t-0 border-b-0 border-l-0 p-8 pr-12">
-            <h1 class="text-3xl md:text-[46px] font-bold text-start mb-4">
-              -> Intelligent Applications & AI Assistants
-            </h1>
-            <p class="text-2xl text-start font-bold mb-6 leading-loose">
-              Building intelligent ML & AI first business solutions,
-              applications and interfaces to take your business, organization
-              and government to the next level.
-            </p>
+            <div class="grid grid-cols-12">
+              <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
+
+              <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-2 md:col-span-11 leading-snug">
+                Intelligent Applications & AI Assistants
+              </h1>
+
+
+              <p
+                class="col-span-10 md:col-span-11 col-start-3 md:col-start-2  text-2xl text-start font-normal mb-6 leading-relaxed">
+                Building intelligent ML & AI first business solutions,
+                applications and interfaces to take your business, organization
+                and government to the next level.
+              </p>
+            </div>
+
           </div>
           <!-- Fourth row-->
         </div>
@@ -293,10 +365,11 @@
       <div
         class="text-white flex flex-col md:flex-row justify-between items-center py-12 md:py-24 px-4 md:px-24 lg:px-36 xl:px-48 bg-blue_text">
         <div class="w-full md:w-3/4 mb-4 md:mb-0 z-50">
-          <h1 class="text-4xl md:text-5xl font-bold text-start mb-5">
+          <h1 class="text-4xl md:text-5xl font-bold text-start mb-5 tracking-wide">
             World Class Capabilities,<br> in Nairobi.
           </h1>
-          <p class="text-2xl font-normal text-start leading-loose">
+
+          <p class="text-2xl font-normal text-start leading-relaxed lg:pr-16">
             We have world class talent and capabilities, right here in the
             heart of Nairobi. Our AI studio team is helping businesses and
             institutions across Africa and beyond to harness the
@@ -315,15 +388,15 @@
 
     <!--Contact Us-->
     <section class="min-h-[80vh] text-blue_text bg-talk_to_us flex flex-col py-14 px-4 md:px-24 lg:px-36 xl:px-48">
-      <h1 class="text-4xl md:text-[64px] mb-12 font-bold ">
+      <h1 class="text-4xl md:text-[64px] mb-4 font-bold ">
         Talk to Us:
       </h1>
-      <p class="text-2xl md:text-[37px] font-bold">
+      <p class="text-2xl md:text-3xl font-normal leading-relaxed mb-12">
         We design solutions for all industries; commercial, government and non-government. Harness your organization
         super power and takeoff to the next level.
       </p>
 
-      <form id="talk_to_us" method="post" action="./" class="flex flex-col mt-4">
+      <form id="talk_to_us" method="post" action="./" class="flex flex-col mb-8">
 
         <?php
 
@@ -432,6 +505,14 @@
 
 
           (+254) 704 090988
+        </p>
+
+
+        <p class="flex md:hidden flex-row gap-4  text-2xl font-normal">
+          <span class="font-bold text-2xl">+</span>
+
+
+          Blog
         </p>
 
       </div>
