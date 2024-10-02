@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" type="image/png" href="./assets/Curated Plus Logo Icon Blue.png" />
+  <link rel="shortcut icon" type="image/png" href="./assets/icons/C+ Logo Icon.png" />
   <title>Curated Plus</title>
   <meta name="description" content="TY Logistics Park FZE." />
 </head>
@@ -35,7 +35,7 @@
 
                 <li class="flex justify-center p-4">
                   <a href="#talk_to_us" aria-label="blog link"
-                    class="px-4 animate-pulse rounded-full text-lg lg:text-2xl font-normal md:font-bold border-2">Talk
+                    class="px-4 rounded-full text-lg lg:text-2xl font-normal md:font-bold border-2">Talk
                     to Us -></a>
                 </li>
               </ul>
@@ -132,8 +132,8 @@
                 </div>
 
               </div>
-              <img src="./assets/Curated Plus Education.png" alt="Education"
-                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
+              <img src="./assets/solutions/Curated Plus Education.png" alt="Education"
+                class="max-h-[300px] order-1 md:order-2" loading="lazy" />
 
             </div>
 
@@ -168,8 +168,8 @@
               </div>
 
 
-              <img src="./assets/Curated Plus Knowledge.png" alt="Education"
-                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
+              <img src="./assets/solutions/Curated Plus Knowledge.png" alt="Education"
+                class="max-h-[300px] order-1 md:order-2" loading="lazy" />
 
             </div>
             <!-- Third row-->
@@ -204,8 +204,8 @@
 
               </div>
 
-              <img src="./assets/Curated Plus Health.png" alt="Education"
-                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
+              <img src="./assets/solutions/Curated Plus Healhcare.png" alt="Healthcare"
+                class="max-h-[300px] order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fourth row-->
             <div class="flex flex-col md:flex-row border-2 border-t-0 border-b-0 border-l-0 p-4 md:p-8">
@@ -235,8 +235,8 @@
 
               </div>
 
-              <img src="./assets/Curated Plus Custom Solutions.png" alt="Education"
-                class="max-h-[300px] animate-pulse order-1 md:order-2" loading="lazy" />
+              <img src="./assets/solutions/Curated Plus Custom Solutions.png" alt="Customized Solutions"
+                class="max-h-[300px] order-1 md:order-2" loading="lazy" />
             </div>
             <!-- Fifth row-->
           </div>
