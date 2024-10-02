@@ -110,7 +110,7 @@
                 <div class="grid grid-cols-12">
                   <span class="col-span-2 md:col-span-1 text-3xl md:text-[46px] font-bold leading-snug">&rarr;</span>
 
-                  <h1 class="text-3xl md:text-[46px] font-bold text-start bg-red-500 col-span-10 md:col-span-11 leading-snug">
+                  <h1 class="text-3xl md:text-[46px] font-bold text-start col-span-10 md:col-span-11 leading-snug">
                     Education
                   </h1>
 
