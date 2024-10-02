@@ -529,7 +529,7 @@
   </main>
 
   <footer class="bg-blue_text text-white py-14 px-4 md:px-24 lg:px-36 xl:px-48">
-    <ul class="flex flex-col md:flex-row justify-between items-center">
+    <ul class="flex flex-col md:flex-row justify-between items-center gap-8">
       <li>
         <a href="./" aria-label="home link" class="text-2xl">© Curated Plus 2024</a>
       </li>
