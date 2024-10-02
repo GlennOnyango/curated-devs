@@ -30,7 +30,7 @@
               <ul class="flex flex-row">
                 <li class="hidden lg:flex justify-center p-4">
                   <a href="https://www.linkedin.com/company/curatedplus/" aria-label="blog link"
-                    class="px-4 bg-transparent rounded-full text-2xl font-normal border-none">Blog +</a>
+                    class="px-4 bg-transparent rounded-full text-2xl font-normal border-none" target="blank">Blog +</a>
                 </li>
 
                 <li class="flex justify-center p-4">
@@ -536,7 +536,7 @@
       <li>
 
         <a href="https://www.linkedin.com/company/curatedplus/" aria-label="blog link"
-          class="px-4 bg-transparent rounded-full text-2xl font-normal border-none">Blog +</a>
+          class="px-4 bg-transparent rounded-full text-2xl font-normal border-none" target="blank" >Blog +</a>
         </a>
       </li>
       <li>
