@@ -409,7 +409,7 @@
 
           // send email
           //$to = "nmgasa5c3th7@p3plzcpnl505463.prod.phx3.secureserver.net";
-          $to = "info@tylogisticspark.com";
+          $to = "hello@curatedp.com";
           $subject = "Contact Us";
           $txt = "Company: $company\nName: $name\nEmail: $email\nSubject: $subject\nMessage: $message";
           $headers = "From: $email";
