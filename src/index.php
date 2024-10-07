@@ -392,7 +392,8 @@
         Talk to Us:
       </h1>
       <p class="text-2xl md:text-3xl font-normal leading-relaxed mb-12">
-        We design solutions for all industries; commercial, government and non-government. Harness your organization
+        We design solutions for all industries; commercial, government and non-government. Harness your
+        organization
         super power and takeoff to the next level.
       </p>
 
@@ -427,8 +428,16 @@
 
             $error = $e->getMessage();
 
+
             echo "<div class='bg-red-500 text-white p-4 mb-12'>$error</div>";
           }
+          echo "  <script>
+            var elem = document
+                .getElementById('talk_to_us');
+            elem
+                .scrollIntoView();
+        
+    </script>";
 
         }
 
@@ -536,7 +545,7 @@
       <li>
 
         <a href="https://www.linkedin.com/company/curatedplus/" aria-label="blog link"
-          class="px-4 bg-transparent rounded-full text-2xl font-normal border-none" target="blank" >Blog +</a>
+          class="px-4 bg-transparent rounded-full text-2xl font-normal border-none" target="blank">Blog +</a>
         </a>
       </li>
       <li>
